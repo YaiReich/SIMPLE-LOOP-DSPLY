@@ -1,0 +1,10 @@
+        *************** Beginning of data *************************************
+0001.00 FPSTUDENT  IF   E             DISK                                     
+0004.00 C*                                                                     
+0014.00 C                   READ      RSTUDENT                             9999
+0015.00 C     *IN99         DOWEQ     *OFF                                     
+0017.00 C     SFNAME        DSPLY                                              
+0018.00 C                   READ      RSTUDENT                             9999
+0019.00 C                   ENDDO                                              
+0026.00 C                   SETON                                        LR    
+        ****************** End of data ****************************************
