@@ -1,0 +1,11 @@
+0002.00 FSTUDENT   IF   E           K DISK                                      
+0003.00  *                                                                      
+0003.01  /FREE                                                                  
+0003.02                READ RSTUDENT;                                           
+0003.03                DOW  NOT(%EOF(STUDENT));                                 
+0003.04                     DSPLY NAME ;                                        
+0003.05                     READ RSTUDENT;                                      
+0003.06                ENDDO;                                                   
+0003.07  /END-FREE                                                              
+0008.00 C                   SETON                                        LR     
+        ****************** End of data **************************************** 
