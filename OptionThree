@@ -1,0 +1,14 @@
+        *************** Beginning of data *************************************
+0002.00 FSTUDENT   IF   E           K DISK                                     
+0003.00  *                                                                     
+0004.00 C                   READ      RSTUDENT                                 
+0004.01 C                   IF        NOT(%ERROR)                              
+0004.02 C*                                                                     
+0005.02 C                   DOW       NOT(%EOF(STUDENT))                       
+0006.00 C     NAME          DSPLY                                              
+0006.01 C                   READ      RSTUDENT                                 
+0007.00 C                   ENDDO                                              
+0007.01 C*                                                                     
+0007.02 C                   ENDIF                                              
+0008.00 C                   SETON                                        LR    
+        ****************** End of data ****************************************
